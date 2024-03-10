@@ -8,21 +8,13 @@ shared_scripts {
 
 server_scripts {
 	'server/database.lua',
-	'public/server.lua',
 	'server/main.lua',
 }
 
 client_scripts {
-	'public/client.lua',
 	'client/main.lua',
 }
 
-escorw_ignore {
-	'public/client.lua',
-	'public/server.lua',
-	'shared/config.lua',
-	'shared/locale.lua'
-}
 
 ui_page 'web/build/index.html'
 
